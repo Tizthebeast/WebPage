@@ -1,0 +1,21 @@
+
+
+h1{
+color:green;
+text-align:center;
+border:2px solid black;
+}
+
+table,th,td{
+border:1px solid black;
+}
+
+p{
+background-color:cyan;
+font-size:20px;
+}
+
+body{
+background-image:url('DashBoard.png');
+background-repeat:no-repeat;
+}

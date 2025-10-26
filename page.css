@@ -1,0 +1,66 @@
+body{
+background-color:yellow;
+}
+
+a:link,
+a:visited{
+color:white;
+background-color:red;
+text-decoration:none;
+padding: 5dvh 10dvw;
+margin-right:2dvw;
+margin-left:2dvw;
+}
+
+a:hover,
+a:active{
+color:white;
+background-color:orange;
+text-decoration:none;
+padding: 5dvh 10dvw;
+margin-right:2dvw;
+}
+
+a.HellFire:link,
+a.HellFire:visited{
+color:white;
+background-color:red;
+text-decoration:none;
+padding: 1dvh 3dvw;
+font-size:3dvh;
+display:inline-block;
+}
+
+a.HellFire:active,
+a.HellFire:hover{
+color:black;
+background-color:orange;
+text-decoration:none;
+padding: 1dvh 3dvw;
+font-size:3dvh;
+display:inline-block;
+transform: scale(1.05)
+}
+
+div.SideBar{
+background-color:blue;
+color:yellow;
+height:90dvh;
+width:25vw;
+float:left;
+margin-top:2dvh;
+}
+
+div.MainBar{
+background-color:red;
+color:black;
+height:90dvh;
+width:72dvw;
+margin-left:26dvw;
+margin-top:2dvh;
+}
+
+div.TopBar{
+height:7dvh;
+width:100dvw;
+}
