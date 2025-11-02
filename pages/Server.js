@@ -12,6 +12,4 @@ connection.connect(function (err) {
   console.log("Connected!");
 });
 
-function Sign_Up(username, password) {
-  // You can implement registration logic here later
-}
+function Sign_Up(username, password) {}
