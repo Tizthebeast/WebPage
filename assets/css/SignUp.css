@@ -1,7 +1,97 @@
-h1 {
-    color: black;
+body {
+    background-color: white;
 }
 
-body {
-    background-color: bisque;
+a:link,
+a:visited {
+    color: white;
+    background-color: #6e9ac2;
+    text-decoration: none;
+    padding: 5dvh 6dvw;
+    margin-right: 1dvw;
+    margin-left: 1dvw;
+}
+
+a:hover,
+a:active {
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    padding: 5dvh 6dvw;
+    margin-right: 1dvw;
+}
+
+a.HellFire:link,
+a.HellFire:visited {
+    color: white;
+    background-color: #6e9ac2;
+    text-decoration: none;
+    padding: 1dvh 2dvw;
+    font-size: 3dvh;
+    display: inline-block;
+    border-radius: 2dvh;
+}
+
+a.HellFire:active,
+a.HellFire:hover {
+    color: black;
+    background-color: orange;
+    text-decoration: none;
+    padding: 1dvh 2dvw;
+    font-size: 3dvh;
+    display: inline-block;
+    transform: scale(1.05);
+}
+
+a.Spider:link,
+a.Spider:visited {
+    color: white;
+    background-color: #6e9ac2;
+    text-decoration: none;
+    padding: 1dvh 2dvw;
+    font-size: 3dvh;
+    display: inline-block;
+    margin-left: 2dvw;
+    border-radius: 2dvh;
+}
+
+a.Spider:active,
+a.Spider:hover {
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    padding: 1dvh 2dvw;
+    font-size: 3dvh;
+    display: inline-block;
+    transform: scale(1.05);
+    margin-left: 2dvw;
+}
+
+div.MainBar {
+    background-color: #e8e8e8;
+    color: black;
+    height: 120dvh;
+    width: 90dvw;
+    margin-left: 5dvw;
+    margin-top: 2dvh;
+    padding-top: 1dvh;
+    border-radius: 2dvh;
+}
+
+.TopBar {
+    height: 7dvh;
+    width: 98dvw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2dvw;
+    background-color: #e8e8e8;
+    border-radius: 2dvh;
+}
+
+label.SideLogin {
+    display: block;
+    font-size: 3vh;
+    margin-top: 2vh;
+    text-align: center;
 }

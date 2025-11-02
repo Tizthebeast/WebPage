@@ -52,6 +52,7 @@ a.Spider:visited {
     font-size: 3dvh;
     display: inline-block;
     margin-left: 2dvw;
+    border-radius: 2dvh;
 }
 
 a.Spider:active,
@@ -74,6 +75,7 @@ div.SideBar {
     float: left;
     margin-top: 2dvh;
     padding-top: 1dvh;
+    border-radius: 2dvh;
 }
 
 div.MainBar {
@@ -84,16 +86,18 @@ div.MainBar {
     margin-left: 21dvw;
     margin-top: 2dvh;
     padding-top: 1dvh;
+    border-radius: 2dvh;
 }
 
 .TopBar {
     height: 7dvh;
-    width: 100dvw;
+    width: 98dvw;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 2dvw;
     background-color: #e8e8e8;
+    border-radius: 2dvh;
 }
 
 label.SideLogin {
