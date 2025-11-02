@@ -1,66 +1,104 @@
-body{
-background-color:yellow;
+body {
+    background-color: white;
 }
 
 a:link,
-a:visited{
-color:white;
-background-color:red;
-text-decoration:none;
-padding: 5dvh 10dvw;
-margin-right:2dvw;
-margin-left:2dvw;
+a:visited {
+    color: white;
+    background-color: #6e9ac2;
+    text-decoration: none;
+    padding: 5dvh 6dvw;
+    margin-right: 1dvw;
+    margin-left: 1dvw;
 }
 
 a:hover,
-a:active{
-color:white;
-background-color:orange;
-text-decoration:none;
-padding: 5dvh 10dvw;
-margin-right:2dvw;
+a:active {
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    padding: 5dvh 6dvw;
+    margin-right: 1dvw;
 }
 
 a.HellFire:link,
-a.HellFire:visited{
-color:white;
-background-color:red;
-text-decoration:none;
-padding: 1dvh 3dvw;
-font-size:3dvh;
-display:inline-block;
+a.HellFire:visited {
+    color: white;
+    background-color: #6e9ac2;
+    text-decoration: none;
+    padding: 1dvh 2dvw;
+    font-size: 3dvh;
+    display: inline-block;
+    border-radius: 2dvh;
 }
 
 a.HellFire:active,
-a.HellFire:hover{
-color:black;
-background-color:orange;
-text-decoration:none;
-padding: 1dvh 3dvw;
-font-size:3dvh;
-display:inline-block;
-transform: scale(1.05)
+a.HellFire:hover {
+    color: black;
+    background-color: orange;
+    text-decoration: none;
+    padding: 1dvh 2dvw;
+    font-size: 3dvh;
+    display: inline-block;
+    transform: scale(1.05);
 }
 
-div.SideBar{
-background-color:blue;
-color:yellow;
-height:90dvh;
-width:25vw;
-float:left;
-margin-top:2dvh;
+a.Spider:link,
+a.Spider:visited {
+    color: white;
+    background-color: #6e9ac2;
+    text-decoration: none;
+    padding: 1dvh 2dvw;
+    font-size: 3dvh;
+    display: inline-block;
+    margin-left: 2dvw;
 }
 
-div.MainBar{
-background-color:red;
-color:black;
-height:90dvh;
-width:72dvw;
-margin-left:26dvw;
-margin-top:2dvh;
+a.Spider:active,
+a.Spider:hover {
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    padding: 1dvh 2dvw;
+    font-size: 3dvh;
+    display: inline-block;
+    transform: scale(1.05);
+    margin-left: 2dvw;
 }
 
-div.TopBar{
-height:7dvh;
-width:100dvw;
+div.SideBar {
+    background-color: #e8e8e8;
+    color: black;
+    height: 120dvh;
+    width: 20vw;
+    float: left;
+    margin-top: 2dvh;
+    padding-top: 1dvh;
+}
+
+div.MainBar {
+    background-color: #e8e8e8;
+    color: black;
+    height: 120dvh;
+    width: 72dvw;
+    margin-left: 21dvw;
+    margin-top: 2dvh;
+    padding-top: 1dvh;
+}
+
+.TopBar {
+    height: 7dvh;
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2dvw;
+    background-color: #e8e8e8;
+}
+
+label.SideLogin {
+    display: block;
+    font-size: 3vh;
+    margin-top: 2vh;
+    text-align: center;
 }
