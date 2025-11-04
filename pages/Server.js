@@ -12,4 +12,5 @@ connection.connect(function (err) {
   console.log("Connected!");
 });
 
-function Sign_Up(username, password) {}
+function Sign_Up(Username, Password) {}
+function SignIn(Username, Password) {}
