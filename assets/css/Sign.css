@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: white;
 }
@@ -82,10 +86,10 @@ div.MainBar {
     background-color: #e8e8e8;
     color: black;
     height: 120dvh;
-    width: 71dvw;
-    margin-left: 21dvw;
+    width: 50dvw;
+    margin-left: 25dvw;
     margin-top: 2dvh;
-    padding-top: 1dvh;
+    padding: 2dvh 2dvw;
     border-radius: 2dvh;
 }
 
@@ -105,4 +109,13 @@ label.SideLogin {
     font-size: 3vh;
     margin-top: 2vh;
     text-align: center;
+}
+
+div.row {
+    align-items: center;
+    margin-bottom: 2dvh;
+}
+
+p {
+    padding: 2dvh 2dvw;
 }
